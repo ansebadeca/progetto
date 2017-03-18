@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title></title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <center>
+      <nav class="nav-extended">
+        <div class="nav-wrapper">
+          <ul>
+          	<li style="margin-left: 15px"><a href="#" class="brand-logo">Museo Virtuale</a></li>
+          	<li  style="margin-left: 1515px"><a href="#login">Login</a></li>
+            <li><a href="#signup">Registrati</a></li>
+          </ul>
+        </div>
+        <div class="nav-content"> 
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#test1">Home</a></li>
+            <li class="tab"><a href="#prova">Prodotto</a></li>
+            <li class="tab"><a href="#test3">Chi Siamo</a></li>
+            <li class="tab"><a href="#test4">Guida</a></li>
+            <li class="tab" style="margin-left: 750px ; width: 350px;">
+             <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div id="prova" style="margin-top:1000px; height:1000px">
+        <a name="prova">PROVA PRODOTTO</a>
+      </div>
+    </center>
+  </body>
+</html>
